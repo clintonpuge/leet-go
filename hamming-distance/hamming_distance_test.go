@@ -9,6 +9,7 @@ func TestHammingDistance(t *testing.T) {
 		result int
 	}{
 		{x: 1, y: 4, result: 2},
+		{x: 5, y: 6, result: 2},
 	}
 
 	for _, test := range tests {
